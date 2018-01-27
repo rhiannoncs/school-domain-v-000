@@ -20,17 +20,9 @@ class School
   
   def sort
     @roster.each do |grade, student_hash|
-      puts student_hash
       student_hash.replace(student_hash.sort)
-      puts student_hash
     end
     @roster
   end
   
 end
-
-school = School.new("Just Some School")
-school.add_student("Ian", 1)
-school.add_student("Josie", 0)
-school.add_student("Charlie", 1)
-school.sort
