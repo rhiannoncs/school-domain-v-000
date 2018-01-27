@@ -21,7 +21,7 @@ class School
   def sort
     @roster.each do |grade, student_hash|
       puts student_hash
-      student_hash = student_hash.sort
+      student_hash.replace(student_hash.sort)
       puts student_hash
     end
     puts @roster
