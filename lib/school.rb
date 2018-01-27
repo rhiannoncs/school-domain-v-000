@@ -24,7 +24,7 @@ class School
       student_hash.replace(student_hash.sort)
       puts student_hash
     end
-    puts @roster
+    @roster
   end
   
 end
