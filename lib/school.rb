@@ -21,6 +21,8 @@ class School
   def sort
     @roster.each do |grade, student_hash|
       student_hash.sort
+    end
+    @roster
   end
   
 end
