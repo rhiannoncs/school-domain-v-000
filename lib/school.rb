@@ -24,7 +24,7 @@ class School
       student_hash = student_hash.sort
       puts student_hash
     end
-    @roster
+    puts @roster
   end
   
 end
