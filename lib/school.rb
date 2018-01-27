@@ -28,3 +28,8 @@ class School
   end
   
 end
+
+school = School.new("Just Some School")
+school.add_student("Ian", 1)
+school.add_student("Josie", 0)
+school.add_student("Charlie", 1)
